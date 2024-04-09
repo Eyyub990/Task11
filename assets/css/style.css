@@ -1,0 +1,153 @@
+.header{
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #076469;   
+}
+.header > .font1{
+    display: inline-block;
+    padding: 25px;
+    justify-content: left;
+    font-size: large;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header > .font2{
+    display: inline-block;
+    margin-left: 20px;
+    justify-content: left;
+    font-size: large;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header > .font3{
+    justify-content: right;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: large;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header > .font4{
+    border: 12px solid rgb(122, 255, 255);
+    background-color: rgb(122, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 770px;
+    justify-content: left;
+    font-size: large;
+    color: #076469;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header > .font4:hover{
+    border: 12px solid rgb(122, 255, 255);
+    background-color: rgb(122, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 770px;
+    justify-content: left;
+    font-size: large;
+    color: #076469;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+}
+
+.main{
+    display: flex;
+}
+.sidebar{
+    top:78px;
+    left: 8px;
+    height: 100vh;
+    width: 200px;
+    min-width: 200px;
+    display: inline-block;
+    background-color: rgb(251, 200, 190);
+    left:0;
+    top:0;
+    bottom:0;
+}
+.hr{
+    border: 1px solid black;
+    width: 90%;
+}
+.filtered{
+    justify-content: left;
+    font-size: medium;
+    color: black;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.font{
+    padding-left: 15px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-right: 600px;
+    background-color: rgb(227, 201, 152);
+    justify-content: center;
+    padding-top: 10px;
+    font-size: larger;
+}
+.products{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products > .product{
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(169, 140, 97);
+    border-radius: 5px;
+}
+.content-text{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.content-title{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.content-title-text{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.button{
+    display: flex;
+    width: 140px;
+    border:1px solid rgb(216, 104, 66);
+    
+    padding: 10px;
+    margin-top: 40px;
+    margin-left:80px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(216, 104, 66);
+}
+.button:hover{
+    display: flex;
+    width: 140px;
+    border:1px solid rgb(216, 104, 66);
+    padding: 10px;
+    margin-top: 40px;
+    margin-left:80px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(216, 104, 66);
+    cursor:pointer;
+}
